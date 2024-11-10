@@ -50,10 +50,10 @@ export default tseslint.config({
 })
 ```
 ## Home
-<img src="page-1.png" alt="Descrição da Imagem" width="200"/>
+<img src="page-1.png" alt="Descrição da Imagem" width="500"/>
 
 ## Carrinho
-<img src="page-3.png" alt="Descrição da Imagem" width="200"/>
+<img src="page-3.png" alt="Descrição da Imagem" width="500"/>
 
 ## Entrega
-<img src="page-2.png" alt="Descrição da Imagem" width="200"/>
+<img src="page-2.png" alt="Descrição da Imagem" width="500"/>
