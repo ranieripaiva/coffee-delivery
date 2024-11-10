@@ -10,7 +10,7 @@ Atualmente, dois plugins oficiais estão disponíveis para integração com Reac
 ## Configuração aprimorada do ESLint
 Para aplicações em produção, é recomendável configurar o ESLint com regras de verificação de tipo para um código mais robusto:
 
-# Defina as opções do parser no nível superior de parserOptions da seguinte forma:
+## Defina as opções do parser no nível superior de parserOptions da seguinte forma:
 
 ```js
 export default tseslint.config({
