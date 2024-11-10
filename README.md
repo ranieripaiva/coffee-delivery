@@ -49,3 +49,11 @@ export default tseslint.config({
   },
 })
 ```
+## Home
+<img src="page-1.png" alt="Descrição da Imagem" width="200"/>
+
+## Carrinho
+<img src="page-3.png" alt="Descrição da Imagem" width="200"/>
+
+## Entrega
+<img src="page-2.png" alt="Descrição da Imagem" width="200"/>
