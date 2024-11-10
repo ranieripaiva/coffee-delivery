@@ -1,17 +1,16 @@
-# React + TypeScript + Vite
+## React + TypeScript + Vite
+Este template configura um ambiente mínimo para iniciar projetos com React, TypeScript e Vite, incluindo suporte a Hot Module Replacement (HMR) e algumas regras do ESLint.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Plugins disponíveis
+Atualmente, dois plugins oficiais estão disponíveis para integração com React:
 
-Currently, two official plugins are available:
+* @vitejs/plugin-react: Utiliza Babel para Fast Refresh.
+* @vitejs/plugin-react-swc: Utiliza SWC para Fast Refresh, proporcionando maior desempenho em projetos maiores.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Configuração aprimorada do ESLint
+Para aplicações em produção, é recomendável configurar o ESLint com regras de verificação de tipo para um código mais robusto:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
+# Defina as opções do parser no nível superior de parserOptions da seguinte forma:
 
 ```js
 export default tseslint.config({
@@ -25,9 +24,11 @@ export default tseslint.config({
 })
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+1. Substitua tseslint.configs.recommended por tseslint.configs.recommendedTypeChecked ou tseslint.configs.strictTypeChecked para regras de verificação de tipo mais rigorosas.
+
+2. Opcionalmente, adicione ...tseslint.configs.stylisticTypeChecked para regras estilísticas adicionais.
+
+3. Instale o plugin eslint-plugin-react e atualize a configuração:
 
 ```js
 // eslint.config.js
